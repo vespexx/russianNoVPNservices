@@ -5,7 +5,7 @@ Please put there hosts without "www."-prefix.
 **RussianNoVPNservices.class** - java program for Keenetic routers, that processes **hosts.csv** file, connects to router and set to it static routes that bypass VPN.
 The program use **settings.csv** file to read router IP, username, password(optional) and router interface ID (optional).
 
-You can use **private_hosts.csv** to set resources, than you does not want to spread thru github (private work VPN servers, finance services etc).
+You can use **private_hosts.csv** to set resources, that you does not want to spread through github (private work VPN servers, finance services etc).
 Program **RussianNoVPNservices.class** use both files **hosts.csv** and **private_hosts.csv** to configure router.
 
 run as:
@@ -19,3 +19,5 @@ if there is no InterfaceID data in **settings.csv**, then program list all route
 tested on Keenetic OS versions:
 - 3.8 Alpha 8
 - 3.7.4
+
+link to [RU article](https://vc.ru/u/1190445-vcinder-vcowler/420962-rossiyskie-resursy-nedostupnye-izvne-avtomatizaciya-dostupa-k-nim-pri-rabote-cherez-vpn)
