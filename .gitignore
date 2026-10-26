@@ -1,2 +1,16 @@
 private_hosts.csv
 .DS_Store
+.env
+.env.local
+*.pem
+*.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+Thumbs.db
+*.log
+*.tmp
+*.bak
+node_modules/
